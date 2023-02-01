@@ -104,8 +104,42 @@ h1 p span {
     background-color: #c0c0c0;
     width: 150px;
     height: 25px;
+    font-size: 20px;
+    line-height: 25px;
     box-shadow: inset 3px 3px 0px 0px rgba(217,213,213,1), 2px 2px 1px 0px rgba(0, 0, 0, 1);
 }
 .bg_bar button:active {
     box-shadow: inset 2px 2px 1px 0px rgba(0,0,0,1);
+}
+.menu {
+    width: 20%;
+    position: absolute;
+    left: 5px; bottom: 35px;
+    box-sizing: border-box;
+    border-left: 3px solid rgba(217,213,213,1);
+    border-top: 3px solid rgba(217,213,213,1);
+    border-right: 3px solid #808080;
+    border-bottom: 3px solid rgba(217,213,213,1);
+    background-color: #c0c0c0;
+    box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 1);
+    overflow: hidden;
+}
+.list {
+    float: left;
+    width: 80%;
+}
+.list li {
+    padding-left: 2%;
+    font-size: 25px;
+    line-height: 50px;
+}
+.list li:hover {
+    background-color: #000080;
+    color: #fff;
+}
+.menu_side {
+    float: left;
+    width: 20%;
+    height: 250px;
+    background-color: #808080;
 }
