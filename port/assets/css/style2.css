@@ -92,54 +92,43 @@ h1 p span {
     position: absolute;
     left: 0; bottom: 0;
     width: 100%;
-    height: 35px;
+    height: 28px;
     background-color: #c0c0c0;
-    box-shadow: inset 3px 3px 0px 0px rgba(217,213,213,1);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    box-shadow: inset 0px 1px 0px 0px #dfdfdf, inset 0 2px 0 0 #ffffff;
+    box-sizing: border-box;
+    padding-top: 4px;
 }
 .bg_bar button {
-    margin-left: 5px;
+    text-align: right;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-left: 2px;
+    padding: 1px 5px 2px 1px;
     background-color: #c0c0c0;
-    width: 150px;
-    height: 25px;
-    font-size: 20px;
-    line-height: 25px;
-    box-shadow: inset 3px 3px 0px 0px rgba(217,213,213,1), 2px 2px 1px 0px rgba(0, 0, 0, 1);
+    width: 54px;
+    height: 22px;
+    font-size: 9px;
+    line-height: 19px;
+    box-sizing: border-box;
+    box-shadow: inset -1px -1px 0px 0px #000, inset 1px 1px 0px 0px #ffffff, inset -2px -2px 0 0 #828282;
+    background-image: url(../img/start_icon.jpg);
+    background-size: 22px 19px;
+    background-repeat: no-repeat;
+    background-position: 1px 1px;
 }
 .bg_bar button:active {
-    box-shadow: inset 2px 2px 1px 0px rgba(0,0,0,1);
+    box-shadow: inset -1px -1px 0 0 #fff, inset 1px 1px 0 0 #000, inset -2px -2px 0 0 #dfdfdf, inset 2px 2px 0 0 #808080;
 }
-.menu {
-    width: 20%;
+.clock_wrap {
     position: absolute;
-    left: 5px; bottom: 35px;
-    box-sizing: border-box;
-    border-left: 3px solid rgba(217,213,213,1);
-    border-top: 3px solid rgba(217,213,213,1);
-    border-right: 3px solid #808080;
-    border-bottom: 3px solid rgba(217,213,213,1);
-    background-color: #c0c0c0;
-    box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 1);
-    overflow: hidden;
+    top: 4px; right: 2px;
+    height: 22px;
+    width: 98px;
+    box-shadow: inset 1px 0 0 0 #808080, inset 2px 0 0 0 #ffffff;
 }
-.list {
-    float: left;
-    width: 80%;
-}
-.list li {
-    padding-left: 2%;
-    font-size: 25px;
-    line-height: 50px;
-}
-.list li:hover {
-    background-color: #000080;
-    color: #fff;
-}
-.menu_side {
-    float: left;
-    width: 20%;
-    height: 250px;
-    background-color: #808080;
+.clock {
+    width: 94px;
+    height: 100%;
+    margin-left: 4px;
+    box-shadow: inset -1px -1px 0 0 #ffffff, inset 1px 1px 0 0 #808080;
 }
